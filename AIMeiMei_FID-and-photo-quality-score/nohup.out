@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "trainer.py", line 6, in <module>
+    from scipy.stats import spearmanr, pearsonr
+ModuleNotFoundError: No module named 'scipy'
