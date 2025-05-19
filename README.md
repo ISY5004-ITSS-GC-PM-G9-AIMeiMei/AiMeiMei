@@ -7,7 +7,7 @@ AiMeiMei is a two-part intelligent photo assistant toolkit designed to enhance b
 ## AiMeiMei Camera – Smart Photo Quality Scorer
 - Capture better photos in real-time with intelligent analysis and feedback.
 - SPAQ model for evaluating brightness, contrast, color, noise, and sharpness.
-- YOLOv8 for object detection and subject positioning.
+- YOLO11 for object detection and subject positioning.
 - OpenCV-based angle calculation for assessing photo tilt and distortion.
 - Real-time suggestions like “Re-center subject” or “Adjust brightness”.
 - Individual sub-scores and a composite score to guide the photographer.
@@ -23,7 +23,7 @@ AiMeiMei is a two-part intelligent photo assistant toolkit designed to enhance b
 
 ## Credit
 Liu MoHan – Team Leader, Assistant Developer & Assistant Report Writer
-Led team coordination and planning. Proposed the main idea behind the photo quality scoring system, including the use of YOLO for subject detection and positioning evaluation. Also contributed to YOLO-based implementation and testing, and supported report writing.
+Led team coordination and planning. Proposed the main idea behind the photo quality scoring system, including the use of YOLO for subject detection and positioning evaluation. Also contributed to YOLO-based implementation and testing, and supported report writing.Improved code fixed aesthetics scoring and more。
 
 Ng Min Teck – Lead Developer
 Led the development of the full system (~75% of the codebase), including the implementation of all major features: model integration (SPAQ, YOLO, SAM, LaMa, ControlNet), real-time feedback system, PyQt-based interface, aesthetic and realism scoring, and image editing pipeline. Responsible for feature design, coding, optimization, and system integration.
